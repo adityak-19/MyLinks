@@ -8,6 +8,7 @@ import { SiTryhackme } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa6";
+import { SiHackerrank } from "react-icons/si";
 
 function App() {
   const data = [
@@ -15,7 +16,8 @@ function App() {
     { logo: <FaGithub  />, name: "GitHub", link: "https://github.com/adityak-19", },
     { logo: <SiTryhackme  />, name: "TryHackMe", link: "https://tryhackme.com/p/a0x19", },
     { logo: <FaXTwitter  />, name: "Twitter", link: "https://x.com/adityak__19", },
-    { logo: <FaMedium  />, name: "Medium", link: "https://medium.com/@adityakx19", }
+    { logo: <FaMedium  />, name: "Medium", link: "https://medium.com/@adityakx19", },
+    { logo: <SiHackerrank />, name: "HackerRank", link: "https://www.hackerrank.com/profile/a0x19", }
   ];
 
   return (
